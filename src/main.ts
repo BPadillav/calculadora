@@ -4,8 +4,6 @@ import { CommonModule } from '@angular/common';
 import { bootstrapApplication } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 
-
-
 @Component({
   selector: 'my-app',
   standalone: true,
@@ -15,8 +13,6 @@ import { FormsModule } from '@angular/forms';
 })
 export class App {
   name = ' Mi Calculadora básica';
-  name1 = 'Lisseth';
-  cargo = 'Estudiante';
   a = 0;
   b = 0;
   c = 0;
